@@ -1,0 +1,54 @@
+body {
+    font-family: "PoppinS", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+    display: block;
+}
+
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    filter: opacity(7%);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 80vh;
+}
+
+.informacao {
+    width: 49%;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 35px;
+    height: 200px;
+    padding-right: 15px;
+    margin-bottom: 160px;
+}
+
+.vermelho {
+    color: rgb(21, 255, 0);
+}
+
+strong {
+    color: rgb(0, 89, 223);
+
+}
+
+.informacao h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+.informacao p{
+ text-justify: center;
+}

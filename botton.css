@@ -1,0 +1,107 @@
+.botton {
+  display: flex;
+  align-items: center;
+
+}
+
+.watts {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #3bca02;
+  transition: 1s ease-in-out;
+
+}
+
+svg {
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.watts:hover {
+  transition: 1s ease-in-out;
+  background: #31aa02
+}
+
+.watts:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.watts span {
+  color: #fff;
+  position: absolute;
+  left: 96px;
+  top: 533px;
+  font-family: Arial;
+  font-size: 15px;
+
+
+}
+
+.lkdn{
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #0259ca;
+  transition: 1s ease-in-out;
+  margin-left:  50px;
+
+}
+
+.lkdn:hover {
+  transition: 1s ease-in-out;
+  background: #0047a5
+}
+
+.lkdn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.lkdn span {
+  color: #fff;
+  position: absolute;
+  left: 341px;
+  top: 533px;
+  font-family: Arial;
+  font-size: 15px;
+
+
+}
+
+.github{
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #6e01d4;
+  transition: 1s ease-in-out;
+  margin-left:  50px;
+
+}
+
+.github:hover {
+  transition: 1s ease-in-out;
+  background: #5d00b4
+}
+
+.github:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.github span {
+  color: #fff;
+  position: absolute;
+  left: 580px;
+  top: 533px;
+  font-family: Arial;
+  font-size: 15px;
+
+
+}
